@@ -1,0 +1,290 @@
+{% extends 'base.html' %} 
+{% block title %}Homepage{% endblock title %} 
+{% block body %}
+<!--Carousel-->
+<div
+  id="carouselExampleCaptions"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://www.vintagerides.travel/wp-content/uploads/motorcycle-tours-nepal-bhutan-scaled.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Department of Motor Vehicles</h5>
+        <p>The official website for the Department of Motor Vehicles, Nepal.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1569601159/shape/mentalfloss/new_photo_for_12_tips_for_road_tripping.jpg?itok=b30tG1dP"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Department of Motor Vehicles</h5>
+        <p>Light in the streets, shadows in the house.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://www.carpemundi.com.br/wp-content/uploads/2015/09/viajar-slow-travel.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Department of Motor Vehicles</h5>
+        <p>Apply for a license from the convenience of your own home.</p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br />
+
+<!--Services section-->
+
+<section>
+  <div class="container-lg">
+    <h2 class="text-center">Our services:</h2>
+
+    <!--Cards section-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <a href="/apply_license">
+            <img
+              src="https://1.bp.blogspot.com/-jFyU6NqEiN0/WyzCrmpaMjI/AAAAAAAAAaM/4wOMbQE1yEwCoc5zr0-ITsdNYHzKtYVcgCLcBGAs/s1600/Gandaki%2Blicense.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/apply_license" class="card-title"
+              ><b>Apply for a license</b></a
+            >
+
+            <p class="card-text">
+              Enter your details to apply for a license online and choose an
+              examination date.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/check_license">
+            <img
+              src="https://assets-api.kathmandupost.com/thumb.php?src=https://assets-cdn.kathmandupost.com/uploads/source/news/2017/others/18122015122307Smart-Card--5--1000x0-copy-30062017080613.jpg&w=900&height=601"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/check_license" class="card-title"
+              ><b>View license(s)</b></a
+            >
+
+            <p class="card-text">
+              View all the pre-existing licenses that have been granted to you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/check_exam">
+            <img
+              src="https://mayurbhanjlawcollege.in/new/wp-content/uploads/2015/06/Competitive-Exam.jpg"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/check_exam" class="card-title"
+              ><b>Check results of past examinations</b></a
+            >
+
+            <p class="card-text">
+              Check the results of your past exams online. Fingers crossed!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/laws">
+            <img
+              src="https://cdn.britannica.com/51/190451-050-0E9B50F5/soundblock-Wood-scales-books-stack-background-leather.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/laws" class="card-title"
+              ><b>View Acts, Regulations and Amendments</b></a
+            >
+
+            <p class="card-text">
+              View recent amendments to traffic laws and general guidelines by
+              the Department of Transport Management.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/registered_vehicles">
+            <img
+              src="https://i.ytimg.com/vi/NixjHzdz6ZI/maxresdefault.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/registered_vehicles" class="card-title"
+              ><b>View registered vehicles</b></a
+            >
+
+            <p class="card-text">
+              Check the details of all the vehicles registered with us under
+              your citizenship.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/traffic_offences">
+            <img
+              src="https://michaelpettylaw.com/wp-content/uploads/2019/01/traffic_offenses.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/traffic_offences" class="card-title"
+              ><b>Check your track record</b></a
+            >
+
+            <p class="card-text">
+              View traffic offenses attached to your citizenship or registered
+              vehicles.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/branches">
+            <img
+              src="https://res.cloudinary.com/dpqvbxdpf/image/upload/v1610533336/uploads/ProfileImage/a3v77qo4vcoh7nev8xgv.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/branches" class="card-title"
+              ><b>Locate DMV branches near you</b></a
+            >
+
+            <p class="card-text">
+              Check out a list of all the DMV branches near you.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/exam_dates">
+            <img
+              src="https://www.motorbeam.com/wp-content/uploads/Driving-Licence-Test.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/exam_dates" class="card-title"
+              ><b>Check upcoming examination dates</b></a
+            >
+
+            <p class="card-text">
+              Check upcoming examination dates, respective examination centers
+              and related information.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <a href="/contact">
+            <img
+              src="https://sarkaribhartidekho.com/wp-content/uploads/2021/11/customersupport-blog.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <a href="/contact" class="card-title"><b>Need help?</b></a>
+
+            <p class="card-text">
+              Have a complaint, suggestion or query? Please feel free to write
+              to us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock body %}
