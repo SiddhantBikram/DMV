@@ -120,15 +120,6 @@ def laws(request):
     context={'laws': laws}
     return render(request, 'laws.html', context)
 
-def support(request):
-    if request.user.is_authenticated:
-        citizenship=request.user.profile.citizenship
-
-    else:
-        messages.warning(request, 'Please log in first!')
-        return redirect('/')
-    return render(request, 'support.html')
-
 def exam_dates(request):
 
     exam_dates=exam_db.objects.all().order_by('exam_date')
