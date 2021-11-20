@@ -116,7 +116,6 @@ def check_exam(request):
     return render(request, 'check_exam.html')
 
 def laws(request):
-
     laws=law_db.objects.all().order_by('law_date')
     context={'laws': laws}
     return render(request, 'laws.html', context)
