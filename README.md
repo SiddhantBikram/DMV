@@ -21,7 +21,7 @@ Database: SQLite3<br>
 
 The entity relationship diagram, data flow diagram, and various other details are present in the PDF report file.
 
-Thank you! If you have any questions, please feel free to reach out to siddhantshah3000@gmail.com
+Thank you! If you have any questions, please feel free to reach out to siddhantshah3000@gmail.com.
 <br>
 <br>
 
