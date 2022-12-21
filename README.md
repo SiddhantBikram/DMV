@@ -15,9 +15,9 @@ This Department of Motor Vehicles (DMV) management system is designed to give us
 
 <b>Specifications:</b>
 
-Backend: Django, Python
-Frontend: HTML, CSS, Javascript, Bootstrap
-Database: SQLite3
+Backend: Django, Python<br>
+Frontend: HTML, CSS, Javascript, Bootstrap<br>
+Database: SQLite3<br>
 
 The entity relationship diagram, data flow diagram, and various other details are present in the PDF report file.
 
